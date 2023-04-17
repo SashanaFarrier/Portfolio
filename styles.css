@@ -359,7 +359,7 @@ h2 {
   transition: 500ms ease-in-out;
 }
 
-.projects-btn.site:hover {
+.projects-btn.site:hover, .contact-btn:hover {
   color: #a4508b;
   background-color: #fff;
 }
@@ -418,6 +418,7 @@ h2 {
   width: 100%;
   max-width: 300px;
   margin-top: var(--gap-1);
+  transition: 500ms ease-in-out;
 }
 
 .contact h2 {
