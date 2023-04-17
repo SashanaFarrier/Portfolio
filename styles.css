@@ -98,6 +98,11 @@ button:hover {
 }
 header a {
   color: #000;
+  trannsition: 500ms ease-in-out;
+}
+
+header a:hover {
+color: #a4508b;
 }
 
 header ul {
@@ -170,6 +175,7 @@ h2 {
   background-color: white;
   border-radius: 99vw;
   box-shadow: 5px 5px 2px #000;
+  transition: 500ms ease-in-out
 }
 
 .about {
@@ -343,11 +349,11 @@ h2 {
   transition: 500ms ease-in-out;
 }
 
-.projects-btn.code:hover {
+.projects-btn.code:hover, .hero-btn:hover {
   color: #fff;
   background-color: #a4508b;
 }
-.projects-btn.site {
+.projects-btn.site, {
   color: #fff;
   background-color: #a4508b;
   transition: 500ms ease-in-out;
