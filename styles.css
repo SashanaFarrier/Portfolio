@@ -384,7 +384,7 @@ h2 {
 }
 
 .form {
-  margin-top: -50vh;
+  margin-top: -40vh;
   margin-bottom: var(--gap-3);
   max-width: 900px;
   z-index: 10;
