@@ -4,8 +4,11 @@ const nameInput =  document.querySelector(".name")
 const textarea =  document.querySelector(".textarea")  
 
 sendBtn.addEventListener("click", () => {
-emailInput.value = ""
+  setTimeout(() => {
+  emailInput.value = ""
 nameInput.value = ""
 textarea.value = ""
+  }, 10000)
+
 })
                                           
