@@ -7,5 +7,5 @@ cancelBtn.addEventListener("click", () => {
 emailInput.value = ""
 nameInput.value = ""
 textarea.value = ""
-}
+})
                                           
