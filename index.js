@@ -5,11 +5,11 @@ const textarea =  document.querySelector(".textarea");
 
 sendBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  setTimeout(() => {
+  
   emailInput.value = "";
 nameInput.value = "";
 textarea.value = "";
-  }, 10000)
+
 
 })
                                           
