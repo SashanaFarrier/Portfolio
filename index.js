@@ -7,5 +7,6 @@ cancelBtn.addEventListener("click", () => {
 emailInput.value = ""
 nameInput.value = ""
 textarea.value = ""
+  console.log("nameInput:" nameInput.value, "emailInput:" emailInput.value, "textarea:"textarea.value
 })
                                           
