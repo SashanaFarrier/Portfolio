@@ -426,14 +426,6 @@ h2 {
   margin-bottom: var(--gap-1);
 }
 
-.thankyou {
-  font-size: 1.25rem;
-  color: #fff;
-  background-color: #5f0a87;
-  padding: 1em 2.5em;
-   box-shadow: 5px 5px solid black;
-}
-
 footer {
   color: #fff;
   padding: 1em;
