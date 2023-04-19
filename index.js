@@ -8,13 +8,13 @@ setTimeout(() => {
 nameInput.value = "";
 }, 3000)
 
-// sendBtn.addEventListener("click", (e) => {
-//   e.preventDefault();
+sendBtn.addEventListener("submit", (e) => {
+  e.preventDefault();
   
-//   emailInput.value = "";
-// nameInput.value = "";
-// textarea.value = "";
+  emailInput.value = "";
+nameInput.value = "";
+textarea.value = "";
 
 
-// })
+})
                                           
