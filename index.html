@@ -31,6 +31,7 @@
             <ul role="list" class="flex__container">
               <li><a href="#about">&#8249;about /&#8250;</a></li>
               <li><a href="#projects">&#8249;projects /&#8250;</a></li>
+              <li><a href="#contact">&#8249;contact /&#8250;</a></li>
             </ul>
           </div>
         </div>
@@ -40,7 +41,7 @@
       <section class="hero">
         <div class="container">
           <div class="hero__text">
-            <p class="intro">Hi, my name is Sashana, a</p>
+            <p class="intro">Hi, my name is Sashana</p>
             <h1>Frontend Web Developer</h1>
             <p class="what-i-do">
               I enjoy building responsive, mobile-first design web applications.
@@ -69,7 +70,7 @@
       <section class="skills">
         <div class="container">
             <div class="skills__text">
-               <h2>I write code fluently using</h2>
+               <h2>Tools I've used</h2>
           <ul role="list" class="flex__container">
             <li>
               <div class="details">
@@ -209,7 +210,7 @@
           
         </div>
       </section>
-      <section class="contact">     
+      <section class="contact" id="contact">     
           <div class="form__container flex__container">
             <div class="form__text">
                 <div class="container form__text__container">
@@ -222,12 +223,14 @@
              
             </div>
 
-            <form target="_blank" action="https://formsubmit.co/sashanafarrier777@gmail.com" method="post" class="form">
+            <form action="https://formsubmit.co/sashanafarrier777@gmail.com" method="post" class="form">
                 <div class="container flex__container">
+                 
               <div class="inputs">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://sashanafarrier-thankyou.netlify.app/">
                 <input type="hidden" name="_subject" value="New email. Wooo!">
-<!--                 <input type="hidden" name="_captcha" value="false"> -->
+                <input type="hidden" name="_captcha" value="false">
                 <input
                   class="name"
                   type="text"
@@ -243,9 +246,7 @@
                       placeholder="Email Address" required
                     />
               </div>
-             
               <div class="textarea">
-                <label for="message">Message:</label>
                 <textarea
                   name="message"
                   placeholder="write your message here"
@@ -264,6 +265,8 @@
         <p>&copy; 2023 | Designed and coded with 💟 by <a href="https://github.com/SashanaFarrier" target="_blank">Sashana Farrier-Robinson</a></p>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Flip.min.js" integrity="sha512-Vi0uAaoQQrIY8GZpbmwDW+BpKS+Xhf3FCh0iLWNR6oHlFtZ2hBzWoMEr4NXLd7CBnPKSjfL7fJxzk3inVPasdg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="index.js"></script> 
   </body>
 </html>
