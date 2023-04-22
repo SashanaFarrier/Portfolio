@@ -445,7 +445,7 @@ textarea::placeholder {
 
 .form {
   position: absolute;
-  top: 13em;
+  top: 16em;
   right: 0;
   left: 0;
   z-index: 10;
@@ -544,6 +544,9 @@ footer a {
 @media screen and (min-width: 26.875em) {
   .hero-btn {
     margin-left: 0px;
+  }
+  .form {
+    top: 14em;
   }
 }
 
