@@ -316,6 +316,11 @@ h2 {
   margin-bottom: var(--gap-3);
 }
 
+.projects .cards__container {
+  flex-wrap: wrap;
+  gap: var(--gap-4);
+}
+
 .projects h2 {
   line-height: 1;
 }
@@ -647,7 +652,7 @@ footer .copyright-text a:hover {
     flex-direction: row-reverse;
     align-items: flex-start;
     gap: var(--gap-2);
-    margin-bottom: var(--gap-3);
+    margin-bottom: var(--gap-4);
     max-width: 950px;
     margin-inline: auto;
   }
