@@ -340,11 +340,14 @@ h2 {
 
 .projects img {
   width: 100%;
-  max-height: 400px;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .projects .card {
   flex-direction: column;
+  align-items: center;
   margin-top: var(--gap-2);
 }
 
@@ -356,21 +359,28 @@ h2 {
   margin-bottom: var(--gap-1);
 }
 
+.projects .calculator > .card__text span {
+  font-weight: bold;
+  color: #50c878;
+  text-shadow: 1px 1px 0.25px black;
+}
+
 .projects .card__img {
   border: 2px solid #000;
   padding: var(--gap-1);
-  margin-inline: auto;
-  max-width: 350px;
+  /* margin-inline: auto; */
+  width: 350px;
+  height: 350px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 1em 1em #000;
 }
 
-.projects .card__img .btns {
-  align-items: flex-start;
-  flex: 1;
+.projects .btns {
   gap: 1em;
-  margin-top: var(--gap-1);
+  margin-top: var(--gap-2);
+  max-width: 350px;
+  margin-inline: auto;
 }
 
 .projects-btn {
@@ -380,7 +390,8 @@ h2 {
   width: 100%;
 }
 
-.projects .portfolio .projects-btn {
+.projects .portfolio .projects-btn,
+.projects .calculator .projects-btn {
   width: 50%;
 }
 
@@ -562,13 +573,20 @@ footer .copyright-text a:hover {
 
   .projects .card {
     background-color: #f7e4c9;
-    padding: var(--gap-5);
+    padding: var(--gap-3);
     transform: skew(0deg, 3deg);
     border-radius: 5vw;
   }
 
   .projects .card__text {
     margin-top: 0px;
+  }
+
+  .projects .card__img {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0) scale(1, 1);
+    -webkit-transform: translateZ(0) scale(1, 1);
   }
 }
 
@@ -630,6 +648,8 @@ footer .copyright-text a:hover {
     align-items: flex-start;
     gap: var(--gap-2);
     margin-bottom: var(--gap-3);
+    max-width: 950px;
+    margin-inline: auto;
   }
 
   .projects-btn,
@@ -637,14 +657,20 @@ footer .copyright-text a:hover {
     font-size: 0.8rem;
   }
 
-  .projects .card__text {
-    text-align: left;
-    margin-top: 0px;
+  .projects .btns {
+    justify-content: flex-start !important;
+    margin-inline: 0px;
   }
 
-  .projects .card__img,
   .projects .card__text {
+    text-align: left;
     width: 50%;
+    margin-top: 0px;
+    margin-left: var(--gap-2);
+  }
+
+  .projects .card__img {
+    /* height: 400px; */
   }
 }
 
